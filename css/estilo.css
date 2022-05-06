@@ -1,1 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500&display=swap");
+* {
+    font-family: Roboto;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-weight: 400;
+}
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --primary: #318E94;
+    --secondary: #0038FF;
+    --third: #00B2FF;
+    --thirdLight: #664DFF;
+  }
+  header {
+    display: flex;
+    border-bottom: 0.5rem solid var(--secondary);
+  }
+  header picture img {
+    height: 6rem;
+    
+
+
