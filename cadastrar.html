@@ -23,7 +23,31 @@
         </ul>
       </nav>
     </header>
-    <main>
+    <main class="content">
+      <section class="auth">
+        <h1>CADASTRE-SE</h1>
+        <form action="cadastrar.html" method="post">
+          <label for="nome">nome</label>
+          <div>
+            <img src="./Vector.svg" alt="person" />
+            <input type="text" name="nome" id="nome" required />
+          </div>
+          <label for="email">email</label>
+          <div>
+             <img src="./mensagem.svg" alt="email" />
+             <input type="email" name="email" id="email" required />
+        </div>
+          <label for="senha">senha</label>
+          <div>
+          <img src="./senha.svg" />
+          <input type="password" name="senha" id="senha"  required />
+        </div>
+        <p>
+          Já possui conta? <a href="login.html">Faça login</a>
+          <button type="submit">Entrar</button>
+        </p>
+        </form>
+      </section>
         
     </main>
     <footer>
