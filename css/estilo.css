@@ -8,7 +8,7 @@
   font-weight: 400;
 }
 :root {
-    --white: #ffffff;
+    --white: #D8DCFF;
     --black: #000000;
     --primary: #318E94;
     --secondary: #0038FF;
@@ -44,9 +44,73 @@
     text-decoration: none;
     color: var(--black);
   }
+  main {
+    min-height: 80vh;
+  }
   footer {
     background-color:var(--secondary);
     height: 4rem;
     display: flex;
     align-items: center;
+}
+footer > div {
+  display: flex;
+  align-items: center;
+}
+.content {
+  width: 100%;
+  max-width: 905px;
+  margin: 0 auto;
+}
+
+/* Specific Login */
+main > section.auth {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main > section.auth > h1 {
+  color: var(--black);
+  font-weight: 500;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+main > section.auth > form {
+  background-color: var(--white);
+  border: 0.2rem solid var(--third);
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+main > section.auth > form > div {
+  background-color: var(--white);
+  border: 0.15rem solid var(--third);
+  border-radius: 0.6rem;
+  display: flex;
+  margin: 0.5rem 0;
+}
+main > section.auth > form > div > img {
+  height: 2.5rem;
+  padding: 0.3rem;
+}
+main > section.auth > form > div > input {
+  width: 100%;
+  font-size: 1rem;
+  border: 0;
+  background-color: transparent;
+}
+main > section.auth > form > p > a {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: 500;
+}
+main > section.auth > form > p > button {
+  background-color: var(--third);
+  color: var(--white);
+  padding: 0.6rem;
+  border: 0;
+  border-radius: 0.6rem;
+  width: 5rem;
+  margin-left: 0.5rem;
 }
